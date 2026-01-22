@@ -60,25 +60,43 @@ main:
 #     srai x21,x22,1
 #     beq x0,x0,end
 
-# Task 3
-li x10, 10
-li x22,0
-li x23,0
-li x15,0x200
+# # Task 3
+# li x10, 10
+# li x22,0
+# li x23,0
+# li x15,0x200
 
-Loop1:sw x22, 0x200(x22) 
-    addi x22,x22,1
-    beq x22, x10, CASE5
-    beq x0, x0, Loop1
+# Loop1:sw x22, 0x200(x22) 
+#     addi x22,x22,1
+#     beq x22, x10, CASE5
+#     beq x0, x0, Loop1
 
-CASE5:
-li x22,0
-beq x0,x0,Loop2
+# CASE5:
+# li x22,0
+# beq x0,x0,Loop2
 
-Loop2:add x23, x23, x22
-    addi x22,x22,1
-    beq x22, x10, end
-    beq x0, x0, Loop2
+# Loop2:add x23, x23, x22
+#     addi x22,x22,1
+#     beq x22, x10, end
+#     beq x0, x0, Loop2
+
+# Task 4
+    li x5, 10
+    li x6, 5
+    li x7,0
+    li x29,0
+
+    Loop1: li x29,0 
+        blt x7,x5,Loop2
+        beq x0,x0,end
+    Loop2: slli x20, x29, 2
+        add x25, x7, x29
+        sw x25, 0x200(x20)
+        addi x29,x29,1
+        blt x29,x6,Loop2
+        addi x7,x7,1
+        beq x0,x0,Loop1
+
 
 end:
     j end
