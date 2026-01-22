@@ -24,41 +24,61 @@ main:
 #     beq x0,x0,Loop
 # Exit:
 
-# Task 2
-    li x1,1
-    li x2,2
-    li x3,3
-    li x4,4
-    li x22,8
-    li x23,4
-    li x20,1
+# # Task 2
+#     li x1,1
+#     li x2,2
+#     li x3,3
+#     li x4,4
+#     li x22,8
+#     li x23,4
+#     li x20,1
 
-    beq x20,x1,CASE1
+#     beq x20,x1,CASE1
 
-    beq x20,x2,CASE2
+#     beq x20,x2,CASE2
 
-    beq x20,x3,CASE3
+#     beq x20,x3,CASE3
 
-    beq x20,x4,CASE4
+#     beq x20,x4,CASE4
 
-    li x21,0
-    beq x0,x0,end
+#     li x21,0
+#     beq x0,x0,end
 
-    CASE1:
-    add x21,x22,x23
-    beq x0,x0,end
+#     CASE1:
+#     add x21,x22,x23
+#     beq x0,x0,end
 
+#     CASE2:
+#     sub x21,x22,x23
+#     beq x0,x0,end
 
-    CASE2:
-    sub x21,x22,x23
-    beq x0,x0,end
+#     CASE3:
+#     slli x21,x22,1
+#     beq x0,x0,end
 
-    CASE3:
-    slli x21,x22,1
-    beq x0,x0,end
+#     CASE4:
+#     srai x21,x22,1
+#     beq x0,x0,end
 
-    CASE4:
-    srai x21,x22,1
-    beq x0,x0,end
+# Task 3
+li x10, 10
+li x22,0
+li x23,0
+li x15,0x200
+
+Loop1:sw x22, 0x200(x22) 
+    addi x22,x22,1
+    beq x22, x10, CASE5
+    beq x0, x0, Loop1
+
+CASE5:
+li x22,0
+beq x0,x0,Loop2
+
+Loop2:add x23, x23, x22
+    addi x22,x22,1
+    beq x22, x10, end
+    beq x0, x0, Loop2
+
 end:
     j end
