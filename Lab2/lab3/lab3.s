@@ -40,32 +40,60 @@ main:
 # exit:
 
 # Task 3
-li x10,0x100  # array location
-li x11, 0    # k
-li x9, 7      # random values
-sw x9, 0(x10)
-li x9, 2
-sw x9, 4(x10)
-li x9, 6
-sw x9, 8(x10)
+# li x10,0x100  # array location
+# li x11, 0    # k
+# li x9, 7      # random values
+# sw x9, 0(x10)
+# li x9, 2
+# sw x9, 4(x10)
+# li x9, 6
+# sw x9, 8(x10)
 
-jal x1,swap   # function call
-j exit
+# jal x1,swap   # function call
+# j exit
 
-swap:
-    add x10,x10,x11    # 0x100 + 0  #k    
-    lw x5, 0(x10)  #0x100
-    addi x11,x11,4  # x11 = 4
-    add x10,x10,x11
-    lw x6, 0(x10)  #0x100 + 4
+# swap:
+#     add x10,x10,x11    # 0x100 + 0  #k    
+#     lw x5, 0(x10)  #0x100
+#     addi x11,x11,4  # x11 = 4
+#     add x10,x10,x11
+#     lw x6, 0(x10)  #0x100 + 4
 
-    sw x5, 0(x10)    # swapping values
-    sub x10,x10,x11
-    sw x6, 0(x10)
+#     sw x5, 0(x10)    # swapping values
+#     sub x10,x10,x11
+#     sw x6, 0(x10)
 
-    jalr x0,0(x1)      # exit function
-exit:
+#     jalr x0,0(x1)      # exit function
+# exit:
 
+# Task 4
+li x10,0x100   # array1 location
+li x11,0x200   # array2 location
+li x5, 8       # randomly initialising array1
+sw x5,0(x10)
+li x6,9
+sw x6,4(x10)
+li x7,2
+sw x7,8(x10)
+li x8,4
+sw x8,12(x10)
+li x9,4        # array size, loop limit
+addi sp,sp,-4    # allocating space to store x19 (i)
+sw x19,0(sp)     # storing original value of x19 in the stack
+li x19,0         
 
+jal x1,Loop    # jump to loop
+j end
+
+Loop:
+    beq x9,x19,end     # condition to terminate loop
+    lw x28,0(x10)       # load the ith character of array1
+    sw x28,0(x11)       # copy the ith character of array1 into ith position of array2
+    addi x10,x10,4       # update the address in array1
+    addi x11,x11,4       # update the address in array2 
+    addi x9,x9,1        # increment the loop iterator (i)
+    blt x19,x9,Loop     # condition for next iteration of the loop
 end:
+    lw x19,0(sp)     # retreive x19 from the stack
+    addi sp,sp,4      # deallocate the stack pointer
     j end
