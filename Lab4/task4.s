@@ -2,10 +2,11 @@
 .globl main
 main:
     addi x10,x0,10
+    add x20,x10,x0
     jal x1, sum  # jump to sum  
     
     # Print the result
-    mv x11, x10         # move result to x11 for print syscall
+    mv x11, x20         # move result to x11 for print syscall
     li x10, 1        
     ecall               # print it
     beq x0,x0,end
@@ -26,7 +27,7 @@ main:
         lw x10 , 0(sp) # restore original n
         lw x1 , 4(sp) # restore return address
         addi sp , sp , 8 # pop stack
-        add x10 , x10 , x6 # n + sum(n -1)
+        mul x20 , x20 , x6 # n + sum(n -1)
         jalr x0 , 0(x1) # return
 end:
     j end
