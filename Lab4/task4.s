@@ -1,33 +1,60 @@
 .text
 .globl main
+
 main:
-    addi x10,x0,10
-    add x20,x10,x0
-    jal x1, sum  # jump to sum  
+    li   x11, 6         # n 
+    li   x18, 0         # sum
+    li   x19, 0         # i
+
+loop:
+    mv   x10, x19       # x10 = i (argument for fib)
+    jal  x1, fib        # Call to fib
     
-    # Print the result
-    mv x11, x20         # move result to x11 for print syscall
-    li x10, 1        
-    ecall               # print it
-    beq x0,x0,end
+    add  x18, x18, x10  # sum calculation
     
-    sum:
-        addi sp , sp , -8 #adjust stack for 2 items
-        sw x1 , 4(sp)  #save return address
-        sw x10 , 0(sp) # save argument n
-        addi x5 , x10 , -1 # x5 = n - 1
-        bge x5 , x0 , L1 # if (n - 1) >= 0, go to L1
-        addi x10 , x0 , 0 # return 1
-        addi sp , sp , 8 # pop stack
-        jalr x0 , 0(x1) # return
-    L1:
-        addi x10 , x10 , -1 # argument = n - 1
-        jal x1 , sum # recursive call
-        addi x6 , x10 , 0 # save result of sum(n -1)
-        lw x10 , 0(sp) # restore original n
-        lw x1 , 4(sp) # restore return address
-        addi sp , sp , 8 # pop stack
-        mul x20 , x20 , x6 # n + sum(n -1)
-        jalr x0 , 0(x1) # return
+    addi x19, x19, 1    # i++
+    ble  x19, x11, loop # if i <= n then jump to loop
+
+    mv   x11, x18        # Move sum (x18) into x11 
+    li   x10, 1          # ID
+    ecall
+
+    li   x10, 10         # Load Exit ID into x10
+    ecall
+
+    beq x0, x0, exit
+
+
+fib:
+    addi x2, x2, -16    # Allocate 16 bytes 
+    sw   x1, 12(x2)     # Save return address
+    sw   x8, 8(x2)      
+    sw   x9, 4(x2)      
+
+    mv   x8, x10        # x8 = n
+
+    li   x5, 1    # if n <= 1 return n
+    ble  x8, x5, base_case
+
+    addi x10, x8, -1    # n - 1
+    jal  x1, fib
+    mv   x9, x10        # x9 = result of fib(n-1)
+
+    addi x10, x8, -2    #n - 2
+    jal  x1, fib
+    
+    
+    add  x10, x9, x10   # x10 = fib(n-1) + fib(n-2)
+    j    end
+
+base_case:
+    mv   x10, x8        # return n
+
 end:
-    j end
+    lw   x9, 4(x2)
+    lw   x8, 8(x2)
+    lw   x1, 12(x2)
+    addi x2, x2, 16     # Deallocate stack space
+    jalr x0, 0(x1)      # Return to main
+
+exit: 
