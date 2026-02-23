@@ -1,0 +1,18 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+T1 RESET   | state=0 cnt_en=0 led_out= 0 | expect state=0 cnt_en=0 led=0
+T2 SW=0    | state=0 cnt_en=0 led_out= 0 | expect state=0 cnt_en=0 led=0
+T3 SW=5 S1 | state=1 cnt_en=0 led_out= 0 | expect state=1 cnt_en=1
+   COUNT   | state=1 cnt_en=1 led_out= 4 counter= 4
+   COUNT   | state=1 cnt_en=1 led_out= 3 counter= 3
+   COUNT   | state=1 cnt_en=1 led_out= 2 counter= 2
+   COUNT   | state=1 cnt_en=1 led_out= 1 counter= 1
+   COUNT   | state=1 cnt_en=1 led_out= 0 counter= 0
+T3 DONE    | state=1 cnt_en=1 led_out= 0 | expect state=0 cnt_en=0 led=0
+T4 PRE-RST | state=0 cnt_en=0 led_out= 0 counter= 0
+T4 MID-RST | state=0 cnt_en=0 led_out= 0 | expect state=0 cnt_en=0 led=0
+T5 SW=15   | state=1 cnt_en=0 | expect state=1 cnt_en=1
+T5 DONE    | state=0 cnt_en=0 led_out= 0 | expect state=0 cnt_en=0 led=0
+
+Simulation complete.
+$finish called at time : 326 ns : File "C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CAlab5/CAlab5.srcs/sim_1/new/task2TB.v" Line 98
