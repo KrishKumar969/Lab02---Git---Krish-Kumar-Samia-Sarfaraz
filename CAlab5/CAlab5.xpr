@@ -3,7 +3,11 @@
 <!--                                                         -->
 <!-- Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.   -->
 
+<<<<<<< HEAD
 <Project Version="7" Minor="49" Path="C:/Users/krish/OneDrive/Documents/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CAlab5/CAlab5.xpr">
+=======
+<Project Version="7" Minor="49" Path="C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CAlab5/CAlab5.xpr">
+>>>>>>> f3329980af961b09e7bf35bc374e827ed80b125a
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="25883f29257f4d7b9f456149022acc31"/>
@@ -37,7 +41,7 @@
     <Option Name="IPUserFilesDir" Val="$PIPUSERFILESDIR"/>
     <Option Name="IPStaticSourceDir" Val="$PIPUSERFILESDIR/ipstatic"/>
     <Option Name="EnableBDX" Val="FALSE"/>
-    <Option Name="WTXSimLaunchSim" Val="0"/>
+    <Option Name="WTXSimLaunchSim" Val="1"/>
     <Option Name="WTModelSimLaunchSim" Val="0"/>
     <Option Name="WTQuestaLaunchSim" Val="0"/>
     <Option Name="WTIesLaunchSim" Val="0"/>

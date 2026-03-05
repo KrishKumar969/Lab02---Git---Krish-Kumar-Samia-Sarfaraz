@@ -3,9 +3,15 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
+<<<<<<< HEAD
 <application name="pa" timeStamp="Thu Feb 19 11:31:56 2026">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="474a95a2288643a7855929a13c760139" type="ProjectID"/>
+=======
+<application name="pa" timeStamp="Fri Feb 20 19:46:32 2026">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="0124c0a2196a42d9bf03e15c40f22fb1" type="ProjectID"/>
+>>>>>>> f3329980af961b09e7bf35bc374e827ed80b125a
 <property name="ProjectIteration" value="1" type="ProjectIteration"/>
 </section>
 <section name="PlanAhead Usage" visible="true">
@@ -17,6 +23,7 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
 </item>
 <item name="Java Command Handlers">
+<<<<<<< HEAD
 <property name="AddSources" value="1" type="JavaHandler"/>
 <property name="FileExit" value="2" type="JavaHandler"/>
 <property name="OpenProject" value="1" type="JavaHandler"/>
@@ -42,6 +49,23 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="GuiMode" value="18" type="GuiMode"/>
 <property name="BatchMode" value="0" type="BatchMode"/>
 <property name="TclMode" value="14" type="TclMode"/>
+=======
+<property name="FileExit" value="1" type="JavaHandler"/>
+<property name="SimulationRun" value="2" type="JavaHandler"/>
+</item>
+<item name="Gui Handlers">
+<property name="CmdMsgDialog_OK" value="1" type="GuiHandlerData"/>
+<property name="FileSetPanel_FILE_SET_PANEL_TREE" value="4" type="GuiHandlerData"/>
+<property name="FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE" value="3" type="GuiHandlerData"/>
+<property name="PACommandNames_SIMULATION_RUN_BEHAVIORAL" value="2" type="GuiHandlerData"/>
+<property name="PAViews_PROJECT_SUMMARY" value="1" type="GuiHandlerData"/>
+<property name="RDIViews_WAVEFORM_VIEWER" value="1" type="GuiHandlerData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="20" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="16" type="TclMode"/>
+>>>>>>> f3329980af961b09e7bf35bc374e827ed80b125a
 </item>
 </section>
 </application>
