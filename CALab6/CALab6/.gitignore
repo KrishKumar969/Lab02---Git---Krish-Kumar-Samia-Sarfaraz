@@ -1,0 +1,11 @@
+*.o
+*.i
+*.log
+*.jou
+*.pb
+*.str
+/CALab6/
+.Xil/
+ip_user_files/
+sim/
+synth/
