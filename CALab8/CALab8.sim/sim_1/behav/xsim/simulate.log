@@ -1,0 +1,19 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+=== Test 1: Data Memory Write ===
+Wrote 0xDEADBEEF to DataMem address 0x004
+=== Test 2: Data Memory Read ===
+PASS: readData = 0xdeadbeef
+=== Test 3: LED Write ===
+PASS: leds = 0xa5a5
+=== Test 4: Switch Read ===
+PASS: readData = 0x00ff1234
+=== Test 5: Unused Address Region ===
+PASS: readData = 0x00000000 (unused region returns 0)
+=== Test 6: Reset ===
+FAIL: leds = 0xa5a5 after reset (expected 0x0000)
+=== Test 7: Multiple DataMem Writes/Reads ===
+PASS: addr 0x010 readData = 0xcafebabe
+PASS: addr 0x020 readData = 0x12345678
+=== Testbench Complete ===
+$finish called at time : 156 ns : File "C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CALab8/CALab8.srcs/sim_1/new/MemorySystem_tb.v" Line 172
