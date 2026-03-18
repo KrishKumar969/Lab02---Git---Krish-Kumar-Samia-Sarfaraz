@@ -12,13 +12,11 @@ module switches (
 
 
     always @(posedge clk or posedge rst) begin
-        if (rst) begin
+        if (rst)
             readData <= 32'd0;
-        end else if (readEnable) begin
+        else if (readEnable)
             readData <= {btns, sw};
-        end else begin
-            readData <= 32'd0;
-        end
-        end
+        // holds last value when readEnable is low
+    end
 
 endmodule
