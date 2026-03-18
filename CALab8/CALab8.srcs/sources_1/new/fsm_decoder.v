@@ -5,44 +5,48 @@ module fsm_task3 (
     input         rst,
     input  [15:0] sw,
     input  [15:0] btns,
-    input  [31:0] readData,     // from addressDecoderTop
+    input  [31:0] readData,
     output reg [31:0] address,
     output reg        readEnable,
     output reg        writeEnable,
     output reg [31:0] writeData
 );
 
-    // FSM States
     localparam IDLE          = 3'd0;
     localparam READ_SWITCHES = 3'd1;
     localparam WRITE_DATAMEM = 3'd2;
     localparam READ_DATAMEM  = 3'd3;
     localparam WRITE_LED     = 3'd4;
 
-    reg [2:0] state, next_state;
-
-    // Register to hold switch data between states
+    reg [2:0]  state, next_state;
     reg [31:0] switch_data;
 
-    // Fixed addresses for each peripheral (matching memory map)
-    localparam ADDR_DATAMEM = 32'h000;  // address[9:8] = 00
-    localparam ADDR_LED     = 32'h100;  // address[9:8] = 01
-    localparam ADDR_SWITCH  = 32'h200;  // address[9:8] = 10
+    // Counter to cycle through memory locations 0-255
+    reg [7:0] mem_addr_counter;
+
+    localparam ADDR_LED    = 32'h100;
+    localparam ADDR_SWITCH = 32'h200;
 
     // State register
     always @(posedge clk or posedge rst) begin
-        if (rst)
-            state <= IDLE;
-        else
-            state <= next_state;
+        if (rst) state <= IDLE;
+        else     state <= next_state;
     end
 
-    // Capture readData when coming from READ_SWITCHES or READ_DATAMEM
+    // Increment memory address counter each full FSM loop
+    always @(posedge clk or posedge rst) begin
+        if (rst)
+            mem_addr_counter <= 8'd0;
+        else if (state == WRITE_LED)
+            mem_addr_counter <= mem_addr_counter + 1;
+    end
+
+    // Capture sw directly
     always @(posedge clk or posedge rst) begin
         if (rst)
             switch_data <= 32'd0;
         else if (state == READ_SWITCHES)
-            switch_data <= readData;
+            switch_data <= {btns, sw};
     end
 
     // Next state logic
@@ -59,7 +63,6 @@ module fsm_task3 (
 
     // Output logic
     always @(*) begin
-        // Defaults
         address     = 32'd0;
         readEnable  = 1'b0;
         writeEnable = 1'b0;
@@ -67,36 +70,27 @@ module fsm_task3 (
 
         case (state)
             IDLE: begin
-                address     = 32'd0;
-                readEnable  = 1'b0;
-                writeEnable = 1'b0;
-                writeData   = 32'd0;
+                address = 32'd0; readEnable = 0; writeEnable = 0; writeData = 0;
             end
-
-            // Read current switch values
             READ_SWITCHES: begin
                 address    = ADDR_SWITCH;
                 readEnable = 1'b1;
             end
-
-            // Write switch data into Data Memory
+            // Write to incrementing memory address each loop
             WRITE_DATAMEM: begin
-                address     = ADDR_DATAMEM;
+                address     = {24'd0, mem_addr_counter};  // cycles 0x000, 0x001, 0x002...
                 writeEnable = 1'b1;
                 writeData   = switch_data;
             end
-
-            // Read back from Data Memory
+            // Read back from same address
             READ_DATAMEM: begin
-                address    = ADDR_DATAMEM;
+                address    = {24'd0, mem_addr_counter};
                 readEnable = 1'b1;
             end
-
-            // Write the read-back value to LEDs
             WRITE_LED: begin
                 address     = ADDR_LED;
                 writeEnable = 1'b1;
-                writeData   = switch_data; // display switch data on LEDs
+                writeData   = switch_data;
             end
         endcase
     end
