@@ -35,6 +35,6 @@ module leds(
 
     always @(posedge clk or posedge rst)
         if (rst) leds <= 16'd0;
-        else  leds <= writeData[15:0];
+        else if (writeEnable) leds <= writeData[15:0];
     
 endmodule
