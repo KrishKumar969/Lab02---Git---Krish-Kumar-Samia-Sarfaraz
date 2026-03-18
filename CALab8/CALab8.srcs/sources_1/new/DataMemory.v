@@ -22,6 +22,7 @@
 
 module DataMemory(
     input clk,
+    input rst,
     input MemWrite,
     input [9:0] address,
     input [31:0] WriteData,
@@ -37,8 +38,10 @@ module DataMemory(
     end
        
     wire [7:0] location = address [7:0]; 
-    always @(posedge clk) begin
-        if (MemWrite)
+    always @(posedge clk or posedge rst) begin
+        if (rst)
+            Memory[location] <= 32'd0;
+        else if (MemWrite)
             Memory[location] <= WriteData;
     end    
     
