@@ -1,0 +1,1274 @@
+/*
+
+Xilinx Vivado v2020.1 (64-bit) [Major: 2020, Minor: 1]
+SW Build: 2902540 on Wed May 27 19:54:49 MDT 2020
+IP Build: 2902112 on Wed May 27 22:43:36 MDT 2020
+
+Process ID (PID): 33288
+License: Customer
+
+Current time: 	Thu Mar 12 09:41:44 PKT 2026
+Time zone: 	Pakistan Standard Time (Asia/Karachi)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 16
+
+Screen size: 1920x1200
+Screen resolution (DPI): 150
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=18
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	krish
+User home directory: C:/Users/krish
+User working directory: C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CAlab5
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2020.1
+RDI_DATADIR: C:/Xilinx/Vivado/2020.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2020.1/bin
+
+Vivado preferences file location: C:/Users/krish/AppData/Roaming/Xilinx/Vivado/2020.1/vivado.xml
+Vivado preferences directory: C:/Users/krish/AppData/Roaming/Xilinx/Vivado/2020.1/
+Vivado layouts directory: C:/Users/krish/AppData/Roaming/Xilinx/Vivado/2020.1/data/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2020.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CAlab5/vivado.log
+Vivado journal file location: 	C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CAlab5/vivado.jou
+Engine tmp dir: 	C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CAlab5/.Xil/Vivado-33288-navlanispc
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2020.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2020.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2020.1
+
+
+GUI allocated memory:	155 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,020 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// CommandFailedException: ERROR: [ProjectBase 63-9] XML parser encountered a problem in C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CAlab5/CAlab5.xpr at line 7 : Not well formed 
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2020.1 (64-bit)
+# SW Build: 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build: 2902112 on Wed May 27 22:43:36 MDT 2020
+# Current time: Thu Mar 12 09:41:44 PKT 2026
+# Process ID (PID): 33288
+# OS: Windows 10
+# User: krish
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+ui.frmwork.CommandFailedException: ERROR: [ProjectBase 63-9] XML parser encountered a problem in C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CAlab5/CAlab5.xpr at line 7 : Not well formed
+ (See C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CAlab5/vivado_pid33288.debug)
+*/
+// HOptionPane Error: 'ERROR: [ProjectBase 63-9] XML parser encountered a problem in C:/GitProjects/ Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CAlab5/CAlab5.xpr at line 7 : Not well formed (Vivado v2020.1 (64-bit))'
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 71 MB. Current time: 3/12/26, 9:41:48 AM PKT
+selectButton("OptionPane.button", "OK"); // JButton (v, B)
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CAlab5/CAlab5.xpr", 1); // r (J, cs)
+// CommandFailedException: ERROR: [ProjectBase 63-9] XML parser encountered a problem in C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CAlab5/CAlab5.xpr at line 7 : Not well formed 
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2020.1 (64-bit)
+# SW Build: 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build: 2902112 on Wed May 27 22:43:36 MDT 2020
+# Current time: Thu Mar 12 09:41:52 PKT 2026
+# Process ID (PID): 33288
+# OS: Windows 10
+# User: krish
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+ui.frmwork.CommandFailedException: ERROR: [ProjectBase 63-9] XML parser encountered a problem in C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CAlab5/CAlab5.xpr at line 7 : Not well formed
+ (See C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CAlab5/vivado_pid33288.debug)
+*/
+// HOptionPane Error: 'ERROR: [ProjectBase 63-9] XML parser encountered a problem in C:/GitProjects/ Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CAlab5/CAlab5.xpr at line 7 : Not well formed (Vivado v2020.1 (64-bit))'
+// WARNING: HEventQueue.dispatchEvent() is taking  1009 ms.
+selectButton("OptionPane.button", "OK"); // JButton (v, B)
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "C:/Users/krish/OneDrive/Documents/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CAlab5/CAlab5.xpr", 3); // r (J, cs)
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "C:/Users/krish/OneDrive/Documents/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CAlab5/CAlab5.xpr", 3, false, false, false, false, true); // r (J, cs) - Double Click
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "C:/Users/krish/OneDrive/Documents/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CAlab5/CAlab5.xpr", 3); // r (J, cs)
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "C:/Users/krish/OneDrive/Documents/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CAlab5/CAlab5.xpr", 3, false, false, false, false, true); // r (J, cs) - Double Click
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "C:/Users/krish/OneDrive/Documents/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CAlab5/CAlab5.xpr", 3); // r (J, cs)
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "C:/Users/krish/OneDrive/Documents/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CAlab5/CAlab5.xpr", 3, false, false, false, false, true); // r (J, cs) - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1010 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1005 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1010 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1002 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1014 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1003 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1005 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1015 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1008 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1002 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1003 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1009 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1006 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1007 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1006 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1005 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1008 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1005 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1004 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1005 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1005 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1002 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1005 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1004 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1003 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1004 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1006 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1014 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1015 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1014 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1005 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1015 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1011 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1005 ms.
+// Elapsed time: 197 seconds
+selectButton(PAResourceEtoH.GettingStartedView_CREATE_NEW_PROJECT, "Create Project"); // y (x, cs)
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+// [GUI Memory]: 92 MB (+93739kb) [00:03:49]
+// [Engine Memory]: 1,020 MB (+917690kb) [00:03:49]
+// [GUI Memory]: 99 MB (+2607kb) [00:03:52]
+// [GUI Memory]: 105 MB (+1500kb) [00:03:52]
+// [GUI Memory]: 112 MB (+1795kb) [00:03:52]
+// f (cs): New Project: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, f)
+setText(PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, "CALab8"); // ac (Q, f)
+selectButton(PAResourceOtoP.ProjectNameChooser_CHOOSE_PROJECT_LOCATION, (String) null); // t (an, f)
+setFolderChooser("C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz");
+selectButton("NEXT", "Next >"); // JButton (j, f)
+selectButton("NEXT", "Next >"); // JButton (j, f)
+selectComboBox(PAResourceEtoH.FPGAChooser_CATEGORY, "General Purpose", 2); // v (C, f)
+selectComboBox(PAResourceEtoH.FPGAChooser_FAMILY, "Artix-7", 1); // v (C, f)
+selectComboBox(PAResourceEtoH.FPGAChooser_PACKAGE, "cpg236", 1); // v (C, f)
+selectComboBox(PAResourceEtoH.FPGAChooser_SPEED, "-1", 1); // v (C, f)
+// Elapsed time: 12 seconds
+selectTable(PAResourceEtoH.FPGAChooser_FPGA_TABLE, "xc7a35tcpg236-1 ; 236 ; 106 ; 20800 ; 41600 ; 50 ; 0 ; 90 ; 2 ; 2 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 5 ;  ;  ;  ;  ; 0.95 ; 0.95 ; 1.05", 1, "xc7a35tcpg236-1", 0); // w (J, f)
+selectTable(PAResourceEtoH.FPGAChooser_FPGA_TABLE, "xc7a35tcpg236-1 ; 236 ; 106 ; 20800 ; 41600 ; 50 ; 0 ; 90 ; 2 ; 2 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 5 ;  ;  ;  ;  ; 0.95 ; 0.95 ; 1.05", 1, "xc7a35tcpg236-1", 0, false, false, false, false, true); // w (J, f) - Double Click
+// [GUI Memory]: 121 MB (+3728kb) [00:04:47]
+selectButton("NEXT", "Next >"); // JButton (j, f)
+// bz (f):  Create Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: create_project CALab8 C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CALab8 -part xc7a35tcpg236-1 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  3456 ms.
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: create_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 1025.492 ; gain = 0.000 
+// Elapsed time: 12 seconds
+selectButton("FINISH", "Finish"); // JButton (j, f)
+// 'g' command handler elapsed time: 69 seconds
+dismissDialog("Create Project"); // bz (f)
+dismissDialog("New Project"); // f (cs)
+// [GUI Memory]: 138 MB (+11232kb) [00:04:59]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // E (g, cs)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (E, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "switches"); // ac (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+// Tcl Command: 'file mkdir C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CALab8/CALab8.srcs/sources_1/new'
+dismissDialog("Create Source File"); // F (c)
+// Tcl Message: file mkdir C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CALab8/CALab8.srcs/sources_1/new 
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 11 seconds
+dismissDialog("Add Sources"); // c (cs)
+// Tcl Message: close [ open C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CALab8/CALab8.srcs/sources_1/new/switches.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CALab8/CALab8.srcs/sources_1/new/switches.v 
+// I (cs): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton (v, C)
+dismissDialog("Define Module"); // I (cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3, true); // B (F, cs) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, switches (switches.v)]", 5, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, switches (switches.v)]", 5, false, false, false, false, false, true); // B (F, cs) - Double Click
+// HOptionPane Error: 'The paste failed. The clipboard content is not text. (Paste Error)'
+// Elapsed time: 11 seconds
+typeControlKey((HResource) null, "switches.v", 'v'); // bP (w, cs)
+selectButton("OptionPane.button", "OK"); // JButton (v, B)
+// Elapsed time: 33 seconds
+typeControlKey((HResource) null, "switches.v", 'v'); // bP (w, cs)
+selectCodeEditor("switches.v", 119, 4); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // E (g, cs)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (E, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "leds"); // ac (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 12 seconds
+dismissDialog("Add Sources"); // c (cs)
+// Tcl Message: close [ open C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CALab8/CALab8.srcs/sources_1/new/leds.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CALab8/CALab8.srcs/sources_1/new/leds.v 
+// I (cs): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton (v, C)
+dismissDialog("Define Module"); // I (cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, leds (leds.v)]", 7, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, leds (leds.v)]", 7, false, false, false, false, false, true); // B (F, cs) - Double Click
+// Elapsed time: 15 seconds
+typeControlKey((HResource) null, "leds.v", 'v'); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectCodeEditor("leds.v", 271, 193); // bP (w, cs)
+// Elapsed time: 11 seconds
+selectCodeEditor("leds.v", 163, 207); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("leds.v", 199, 117); // bP (w, cs)
+selectCodeEditor("leds.v", 183, 129); // bP (w, cs)
+// Elapsed time: 17 seconds
+selectCodeEditor("leds.v", 243, 195); // bP (w, cs)
+selectCodeEditor("leds.v", 370, 196); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // E (g, cs)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (E, c)
+// F (c): Create Source File: addNotify
+// Elapsed time: 28 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "AddressDecoder"); // ac (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 37 seconds
+dismissDialog("Add Sources"); // c (cs)
+// Tcl Message: close [ open C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CALab8/CALab8.srcs/sources_1/new/AddressDecoder.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CALab8/CALab8.srcs/sources_1/new/AddressDecoder.v 
+// I (cs): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton (v, C)
+dismissDialog("Define Module"); // I (cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // E (g, cs)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (E, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "DataMemory"); // ac (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (E, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "addressDecoderTop"); // ac (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 19 seconds
+dismissDialog("Add Sources"); // c (cs)
+// Tcl Message: close [ open C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CALab8/CALab8.srcs/sources_1/new/DataMemory.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CALab8/CALab8.srcs/sources_1/new/DataMemory.v 
+// Tcl Message: close [ open C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CALab8/CALab8.srcs/sources_1/new/addressDecoderTop.v w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CALab8/CALab8.srcs/sources_1/new/addressDecoderTop.v 
+// I (cs): Define Modules: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton (v, C)
+dismissDialog("Define Modules"); // I (cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 18 seconds
+selectCodeEditor("leds.v", 158, 114); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 33 seconds
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aA (aL, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Non-module Files]", 9, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Non-module Files]", 9, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Non-module Files, addressDecoderTop.v]", 10, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Non-module Files, addressDecoderTop.v]", 10, false, false, false, false, false, true); // B (F, cs) - Double Click
+typeControlKey((HResource) null, "addressDecoderTop.v", 'v'); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("addressDecoderTop.v", 105, 240); // bP (w, cs)
+// [GUI Memory]: 148 MB (+3047kb) [00:10:26]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "switches.v", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "leds.v", 2); // m (l, cs)
+// Elapsed time: 13 seconds
+selectCodeEditor("leds.v", 273, 268); // bP (w, cs)
+// Elapsed time: 15 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("leds.v", 442, 265); // bP (w, cs)
+// Elapsed time: 14 seconds
+selectCodeEditor("leds.v", 151, 111); // bP (w, cs)
+selectCodeEditor("leds.v", 496, 240); // bP (w, cs)
+selectCodeEditor("leds.v", 404, 268); // bP (w, cs)
+selectCodeEditor("leds.v", 169, 103); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("leds.v", 287, 191); // bP (w, cs)
+selectCodeEditor("leds.v", 336, 268); // bP (w, cs)
+typeControlKey((HResource) null, "leds.v", 'v'); // bP (w, cs)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("leds.v", 475, 235); // bP (w, cs)
+typeControlKey((HResource) null, "leds.v", 'v'); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 12 seconds
+selectCodeEditor("leds.v", 255, 259); // bP (w, cs)
+// Elapsed time: 48 seconds
+selectCodeEditor("leds.v", 308, 263); // bP (w, cs)
+typeControlKey((HResource) null, "leds.v", 'c'); // bP (w, cs)
+// Elapsed time: 53 seconds
+selectCodeEditor("leds.v", 97, 233); // bP (w, cs)
+selectCodeEditor("leds.v", 268, 261); // bP (w, cs)
+selectCodeEditor("leds.v", 324, 240); // bP (w, cs)
+selectCodeEditor("leds.v", 273, 298); // bP (w, cs)
+selectCodeEditor("leds.v", 384, 265); // bP (w, cs)
+typeControlKey((HResource) null, "leds.v", 'v'); // bP (w, cs)
+selectCodeEditor("leds.v", 509, 271); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 36 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "addressDecoderTop.v", 3); // m (l, cs)
+// Elapsed time: 18 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, AddressDecoder (AddressDecoder.v)]", 2, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, AddressDecoder (AddressDecoder.v)]", 2, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectCodeEditor("AddressDecoder.v", 128, 270); // bP (w, cs)
+// Elapsed time: 39 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, addressDecoderTop (addressDecoderTop.v)]", 4, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, addressDecoderTop (addressDecoderTop.v)]", 4, false, false, false, false, false, true); // B (F, cs) - Double Click
+// Elapsed time: 20 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "AddressDecoder.v", 4); // m (l, cs)
+// Elapsed time: 32 seconds
+selectCodeEditor("AddressDecoder.v", 144, 287); // bP (w, cs)
+// Elapsed time: 89 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "switches.v", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "leds.v", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "AddressDecoder.v", 4); // m (l, cs)
+// Elapsed time: 49 seconds
+selectCodeEditor("AddressDecoder.v", 254, 171); // bP (w, cs)
+selectCodeEditor("AddressDecoder.v", 204, 214); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("AddressDecoder.v", 304, 185); // bP (w, cs)
+// Elapsed time: 41 seconds
+selectCodeEditor("AddressDecoder.v", 156, 258); // bP (w, cs)
+selectCodeEditor("AddressDecoder.v", 41, 260); // bP (w, cs)
+// Elapsed time: 14 seconds
+selectCodeEditor("AddressDecoder.v", 126, 258); // bP (w, cs)
+typeControlKey((HResource) null, "AddressDecoder.v", 'c'); // bP (w, cs)
+// Elapsed time: 21 seconds
+selectCodeEditor("AddressDecoder.v", 402, 226); // bP (w, cs)
+selectCodeEditor("AddressDecoder.v", 325, 271); // bP (w, cs)
+typeControlKey((HResource) null, "AddressDecoder.v", 'c'); // bP (w, cs)
+typeControlKey((HResource) null, "AddressDecoder.v", 'v'); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 36 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "switches.v", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "AddressDecoder.v", 4); // m (l, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 70 seconds
+selectCodeEditor("AddressDecoder.v", 334, 237); // bP (w, cs)
+selectCodeEditor("AddressDecoder.v", 280, 197); // bP (w, cs)
+// Elapsed time: 16 seconds
+selectCodeEditor("AddressDecoder.v", 197, 113); // bP (w, cs)
+typeControlKey((HResource) null, "AddressDecoder.v", 'c'); // bP (w, cs)
+// Elapsed time: 29 seconds
+selectCodeEditor("AddressDecoder.v", 317, 250); // bP (w, cs)
+selectCodeEditor("AddressDecoder.v", 211, 212); // bP (w, cs)
+typeControlKey((HResource) null, "AddressDecoder.v", 'v'); // bP (w, cs)
+selectCodeEditor("AddressDecoder.v", 78, 81); // bP (w, cs)
+selectCodeEditor("AddressDecoder.v", 34, 82); // bP (w, cs)
+selectCodeEditor("AddressDecoder.v", 482, 53); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DataMemory (DataMemory.v)]", 3, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DataMemory (DataMemory.v)]", 3, false, false, false, false, false, true); // B (F, cs) - Double Click
+// Elapsed time: 11 seconds
+selectCodeEditor("DataMemory.v", 218, 268); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "AddressDecoder.v", 4); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DataMemory.v", 5); // m (l, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 67 seconds
+selectCodeEditor("DataMemory.v", 198, 171); // bP (w, cs)
+selectCodeEditor("DataMemory.v", 153, 166); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 18 seconds
+selectCodeEditor("DataMemory.v", 123, 265); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 154 seconds
+typeControlKey((HResource) null, "DataMemory.v", 'v'); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("DataMemory.v", 284, 267); // bP (w, cs)
+selectCodeEditor("DataMemory.v", 174, 288); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("DataMemory.v", 113, 321); // bP (w, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 85 MB. Current time: 3/12/26, 10:11:50 AM PKT
+// Elapsed time: 57 seconds
+selectCodeEditor("DataMemory.v", 259, 90); // bP (w, cs)
+// Elapsed time: 45 seconds
+selectCodeEditor("DataMemory.v", 126, 245); // bP (w, cs)
+typeControlKey((HResource) null, "DataMemory.v", 'v'); // bP (w, cs)
+selectCodeEditor("DataMemory.v", 183, 188); // bP (w, cs)
+selectCodeEditor("DataMemory.v", 183, 188); // bP (w, cs)
+selectCodeEditor("DataMemory.v", 375, 288); // bP (w, cs)
+selectCodeEditor("DataMemory.v", 254, 199); // bP (w, cs)
+selectCodeEditor("DataMemory.v", 182, 261); // bP (w, cs)
+selectCodeEditor("DataMemory.v", 256, 214); // bP (w, cs)
+selectCodeEditor("DataMemory.v", 430, 208); // bP (w, cs)
+selectCodeEditor("DataMemory.v", 430, 208, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("DataMemory.v", 451, 212); // bP (w, cs)
+// Elapsed time: 12 seconds
+selectCodeEditor("DataMemory.v", 229, 210); // bP (w, cs)
+selectCodeEditor("DataMemory.v", 376, 187); // bP (w, cs)
+selectCodeEditor("DataMemory.v", 242, 157); // bP (w, cs)
+// Elapsed time: 20 seconds
+selectCodeEditor("DataMemory.v", 172, 165); // bP (w, cs)
+typeControlKey((HResource) null, "DataMemory.v", 'v'); // bP (w, cs)
+// Elapsed time: 25 seconds
+selectCodeEditor("DataMemory.v", 121, 165); // bP (w, cs)
+selectCodeEditor("DataMemory.v", 229, 244); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 29 seconds
+selectCodeEditor("DataMemory.v", 464, 235); // bP (w, cs)
+selectCodeEditor("DataMemory.v", 190, 259); // bP (w, cs)
+// Elapsed time: 32 seconds
+selectCodeEditor("DataMemory.v", 196, 283); // bP (w, cs)
+selectCodeEditor("DataMemory.v", 234, 260); // bP (w, cs)
+selectCodeEditor("DataMemory.v", 133, 287); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N (aI, cs)
+// Elapsed time: 67 seconds
+selectCodeEditor("DataMemory.v", 312, 412); // bP (w, cs)
+selectCodeEditor("DataMemory.v", 318, 415); // bP (w, cs)
+// Elapsed time: 22 seconds
+selectCodeEditor("DataMemory.v", 434, 409); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 70 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "addressDecoderTop.v", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "AddressDecoder.v", 4); // m (l, cs)
+// Elapsed time: 375 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "switches.v", 1); // m (l, cs)
+// Elapsed time: 281 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "leds.v", 2); // m (l, cs)
+selectCodeEditor("leds.v", 247, 612); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DataMemory.v", 5); // m (l, cs)
+selectCodeEditor("DataMemory.v", 127, 288); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 18 seconds
+selectCodeEditor("DataMemory.v", 294, 384); // bP (w, cs)
+// Elapsed time: 39 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "switches.v", 1); // m (l, cs)
+// Elapsed time: 185 seconds
+selectCodeEditor("switches.v", 160, 464); // bP (w, cs)
+selectCodeEditor("switches.v", 259, 222); // bP (w, cs)
+// Elapsed time: 33 seconds
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 13 seconds
+selectCodeEditor("switches.v", 118, 309); // bP (w, cs)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 25 seconds
+typeControlKey(null, null, 'z');
+selectCodeEditor("switches.v", 137, 357); // bP (w, cs)
+selectCodeEditor("switches.v", 281, 390); // bP (w, cs)
+// Elapsed time: 10 seconds
+selectCodeEditor("switches.v", 154, 364); // bP (w, cs)
+selectCodeEditor("switches.v", 432, 341); // bP (w, cs)
+selectCodeEditor("switches.v", 432, 341, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("switches.v", 432, 341); // bP (w, cs)
+selectCodeEditor("switches.v", 580, 337); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 43 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "addressDecoderTop.v", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "switches.v", 1); // m (l, cs)
+selectCodeEditor("switches.v", 450, 280); // bP (w, cs)
+typeControlKey((HResource) null, "switches.v", 'c'); // bP (w, cs)
+// Elapsed time: 157 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "addressDecoderTop.v", 3); // m (l, cs)
+selectCodeEditor("addressDecoderTop.v", 451, 436); // bP (w, cs)
+typeControlKey((HResource) null, "addressDecoderTop.v", 'v'); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 137 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+// Elapsed time: 10 seconds
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_SIMULATION_SPECIFIC_HDL_FILES, "Add or create simulation sources"); // a (o, c)
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (E, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "MemorySystem_tb"); // ac (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+// Tcl Command: 'file mkdir C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CALab8/CALab8.srcs/sim_1/new'
+dismissDialog("Create Source File"); // F (c)
+// Tcl Message: file mkdir C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CALab8/CALab8.srcs/sim_1/new 
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 21 seconds
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Add Sources"); // c (cs)
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property SOURCE_SET sources_1 [get_filesets sim_1] 
+// Tcl Message: close [ open C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CALab8/CALab8.srcs/sim_1/new/MemorySystem_tb.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset sim_1 C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CALab8/CALab8.srcs/sim_1/new/MemorySystem_tb.v 
+// I (cs): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton (v, C)
+dismissDialog("Define Module"); // I (cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 77 MB. Current time: 3/12/26, 10:41:51 AM PKT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+// Elapsed time: 10 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, MemorySystem_tb (MemorySystem_tb.v)]", 10, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, MemorySystem_tb (MemorySystem_tb.v)]", 10, false, false, false, false, false, true); // B (F, cs) - Double Click
+// Elapsed time: 70 seconds
+selectCodeEditor("MemorySystem_tb.v", 362, 353); // bP (w, cs)
+typeControlKey((HResource) null, "MemorySystem_tb.v", 'v'); // bP (w, cs)
+selectCodeEditor("MemorySystem_tb.v", 261, 68); // bP (w, cs)
+selectCodeEditor("MemorySystem_tb.v", 312, 260); // bP (w, cs)
+selectCodeEditor("MemorySystem_tb.v", 206, 61); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, MemorySystem_tb (MemorySystem_tb.v)]", 9, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, MemorySystem_tb (MemorySystem_tb.v)]", 9, true, false, false, false, true, false); // B (F, cs) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af (ao, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ai (ao, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// Tcl Message: set_property top MemorySystem_tb [get_filesets sim_1] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (J, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai (ao, cs)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cs):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CALab8/CALab8.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'MemorySystem_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CALab8/CALab8.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvlog --incr --relax -prj MemorySystem_tb_vlog.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '4' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CALab8/CALab8.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto 96c9537e76af46b7bfda3ccd983afbb6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MemorySystem_tb_behav xil_defaultlib.MemorySystem_tb xil_defaultlib.glbl -log elaborate.log" 
+// Tcl Message: Vivado Simulator 2020.1 Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved. Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 96c9537e76af46b7bfda3ccd983afbb6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MemorySystem_tb_behav xil_defaultlib.MemorySystem_tb xil_defaultlib.glbl -log elaborate.log  Using 2 slave threads. 
+// Tcl Message: Starting static elaboration Pass Through NonSizing Optimizer Completed static elaboration Starting simulation data flow analysis Completed simulation data flow analysis Time Resolution for simulation is 1ps Compiling module xil_defaultlib.AddressDecoder Compiling module xil_defaultlib.DataMemory Compiling module xil_defaultlib.leds Compiling module xil_defaultlib.switches Compiling module xil_defaultlib.addressDecoderTop Compiling module xil_defaultlib.MemorySystem_tb Compiling module xil_defaultlib.glbl Built simulation snapshot MemorySystem_tb_behav 
+// Tcl Message:  ****** Webtalk v2020.1 (64-bit)   **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020   **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020     ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.  source C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CALab8/CALab8.sim/sim_1/behav/xsim/xsim.dir/MemorySystem_tb_behav/webtalk/xsim_webtalk.tcl -notrace 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: INFO: [Common 17-206] Exiting Webtalk at Thu Mar 12 10:44:03 2026... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 1025.492 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '10' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CALab8/CALab8.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "MemorySystem_tb_behav -key {Behavioral:sim_1:Functional:MemorySystem_tb} -tclbatch {MemorySystem_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2020.1 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// WARNING: HEventQueue.dispatchEvent() is taking  1763 ms.
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Elapsed time: 24 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: source MemorySystem_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 84 MB. Current time: 3/12/26, 10:44:12 AM PKT
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'MemorySystem_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:26 . Memory (MB): peak = 1025.492 ; gain = 0.000 
+// 'd' command handler elapsed time: 25 seconds
+dismissDialog("Run Simulation"); // e (cs)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 6); // m (l, cs)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N (aI, cs)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 87 MB. Current time: 3/12/26, 10:44:17 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 91 MB. Current time: 3/12/26, 10:44:20 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 87 MB. Current time: 3/12/26, 10:44:20 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 87 MB. Current time: 3/12/26, 10:44:21 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 87 MB. Current time: 3/12/26, 10:44:21 AM PKT
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // E (g, cs)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 15 seconds
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, writeData[31:0]]", 5); // a (r, cs)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+collapseTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, writeData[31:0]]", 5); // a (r, cs)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 87 MB. Current time: 3/12/26, 10:44:40 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 65, 457); // n (o, cs)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Elapsed time: 10 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, -209, 128); // n (o, cs)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 31, 146); // n (o, cs)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 87 MB. Current time: 3/12/26, 10:45:05 AM PKT
+// Elapsed time: 11 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 191, 186); // n (o, cs)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 286, 119); // n (o, cs)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Elapsed time: 16 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 525, 125); // n (o, cs)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 87 MB. Current time: 3/12/26, 10:45:40 AM PKT
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MemorySystem_tb.v", 5); // m (l, cs)
+// Elapsed time: 16 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 6); // m (l, cs)
+// Elapsed time: 15 seconds
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, address[31:0]]", 2); // a (r, cs)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 87 MB. Current time: 3/12/26, 10:46:21 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 87 MB. Current time: 3/12/26, 10:46:21 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 87 MB. Current time: 3/12/26, 10:46:22 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 87 MB. Current time: 3/12/26, 10:46:23 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 87 MB. Current time: 3/12/26, 10:46:24 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 675, 104); // n (o, cs)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 87 MB. Current time: 3/12/26, 10:46:27 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 87 MB. Current time: 3/12/26, 10:46:29 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, writeData[31:0]]", 12, true); // a (r, cs) - Node
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 87 MB. Current time: 3/12/26, 10:46:32 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 87 MB. Current time: 3/12/26, 10:46:33 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 87 MB. Current time: 3/12/26, 10:46:35 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 87 MB. Current time: 3/12/26, 10:46:36 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 87 MB. Current time: 3/12/26, 10:46:40 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 87 MB. Current time: 3/12/26, 10:46:41 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 87 MB. Current time: 3/12/26, 10:46:41 AM PKT
+// Elapsed time: 16 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "addressDecoderTop.v", 2); // m (l, cs)
+// Elapsed time: 20 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "leds.v", 1); // m (l, cs)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MemorySystem_tb.v", 5); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1*", 6); // m (l, cs)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 87 MB. Current time: 3/12/26, 10:47:24 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 87 MB. Current time: 3/12/26, 10:47:26 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 88 MB. Current time: 3/12/26, 10:47:32 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 87 MB. Current time: 3/12/26, 10:47:32 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 94 MB. Current time: 3/12/26, 10:47:32 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 100 MB. Current time: 3/12/26, 10:47:32 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 87 MB. Current time: 3/12/26, 10:47:33 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 101 MB. Current time: 3/12/26, 10:47:33 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 87 MB. Current time: 3/12/26, 10:47:33 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 87 MB. Current time: 3/12/26, 10:47:38 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 91 MB. Current time: 3/12/26, 10:47:38 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 87 MB. Current time: 3/12/26, 10:47:39 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 87 MB. Current time: 3/12/26, 10:47:40 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 94 MB. Current time: 3/12/26, 10:47:41 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 87 MB. Current time: 3/12/26, 10:47:41 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 88 MB. Current time: 3/12/26, 10:47:42 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 87 MB. Current time: 3/12/26, 10:47:43 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 87 MB. Current time: 3/12/26, 10:47:46 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 87 MB. Current time: 3/12/26, 10:47:46 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 87 MB. Current time: 3/12/26, 10:47:47 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 87 MB. Current time: 3/12/26, 10:47:47 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 87 MB. Current time: 3/12/26, 10:47:47 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 87 MB. Current time: 3/12/26, 10:47:47 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 87 MB. Current time: 3/12/26, 10:47:48 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 87 MB. Current time: 3/12/26, 10:47:48 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 29 seconds
+collapseTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, address[31:0]]", 2); // a (r, cs)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 1050, 116); // n (o, cs)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 827, 69); // n (o, cs)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 87 MB. Current time: 3/12/26, 10:48:01 AM PKT
+// Elapsed time: 14 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 1089, 123); // n (o, cs)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Elapsed time: 20 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 1264, 189); // n (o, cs)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Elapsed time: 13 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 1431, 123); // n (o, cs)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 87 MB. Current time: 3/12/26, 10:48:49 AM PKT
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 1194, 126); // n (o, cs)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 1396, 120); // n (o, cs)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Elapsed time: 428 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (aB, cs)
+closeTask("Simulation", "Behavioral Simulation - Functional - sim_1 - MemorySystem_tb", "DesignTask.SIMULATION");
+// A (cs): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+dismissDialog("Confirm Close"); // A (cs)
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// bz (cs):  Close : addNotify
+selectButton("OptionPane.button", "Discard"); // JButton (v, B)
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// WARNING: HEventQueue.dispatchEvent() is taking  1710 ms.
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Tcl Message: close_sim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:16 . Memory (MB): peak = 1025.492 ; gain = 0.000 
+// Elapsed time: 16 seconds
+dismissDialog("Close"); // bz (cs)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // E (g, cs)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_HDL_NETLIST_BLOCK_DESIGN, "Add or create design sources"); // a (o, c)
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (E, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "fsm_decoder"); // ac (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 15 seconds
+dismissDialog("Add Sources"); // c (cs)
+// Tcl Message: close [ open C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CALab8/CALab8.srcs/sources_1/new/fsm_decoder.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CALab8/CALab8.srcs/sources_1/new/fsm_decoder.v 
+// I (cs): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton (v, C)
+dismissDialog("Define Module"); // I (cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fsm_decoder (fsm_decoder.v)]", 6, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fsm_decoder (fsm_decoder.v)]", 6, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fsm_decoder (fsm_decoder.v)]", 6, false, false, false, false, false, true); // B (F, cs) - Double Click
+typeControlKey((HResource) null, "fsm_decoder.v", 'v'); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 173 seconds
+selectCodeEditor("fsm_decoder.v", 632, 198); // bP (w, cs)
+selectCodeEditor("fsm_decoder.v", 652, 190); // bP (w, cs)
+// Elapsed time: 20 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "addressDecoderTop.v", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fsm_decoder.v", 7); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "addressDecoderTop.v", 3); // m (l, cs)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fsm_decoder.v", 5); // m (l, cs)
+// Elapsed time: 51 seconds
+selectCodeEditor("fsm_decoder.v", 296, 191); // bP (w, cs)
+// Elapsed time: 31 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "addressDecoderTop.v", 3); // m (l, cs)
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fsm_decoder.v", 5); // m (l, cs)
+// Elapsed time: 110 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DataMemory.v", 6); // m (l, cs)
+// Elapsed time: 18 seconds
+selectCodeEditor("DataMemory.v", 33, 533); // bP (w, cs)
+selectCodeEditor("DataMemory.v", 156, 397); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "switches.v", 1); // m (l, cs)
+selectCodeEditor("switches.v", 245, 353); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "addressDecoderTop.v", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "AddressDecoder.v", 4); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "addressDecoderTop.v", 3); // m (l, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fsm_task3 (fsm_decoder.v)]", 6, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fsm_task3 (fsm_decoder.v)]", 6, false, false, false, false, false, true); // B (F, cs) - Double Click
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "addressDecoderTop.v", 3); // m (l, cs)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "addressDecoderTop.v", 3, false, true); // m (l, cs) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N (aI, cs)
+selectCodeEditor("addressDecoderTop.v", 319, 250); // bP (w, cs)
+typeControlKey((HResource) null, "addressDecoderTop.v", 'v'); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fsm_task3 (fsm_decoder.v)]", 6, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fsm_task3 (fsm_decoder.v)]", 6, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fsm_task3 (fsm_decoder.v)]", 6, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fsm_task3 (fsm_decoder.v)]", 6, false, false, false, false, true, false); // B (F, cs) - Popup Trigger
+selectCodeEditor("addressDecoderTop.v", 408, 299); // bP (w, cs)
+// Elapsed time: 18 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// f (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bz (cs):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cs)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: [Thu Mar 12 11:06:02 2026] Launched synth_1... Run output will be captured here: C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CALab8/CALab8.runs/synth_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+dismissDialog("Starting Design Runs"); // bz (cs)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ag (cs): Synthesis Completed: addNotify
+// Elapsed time: 65 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ag)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bz (cs):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cs)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 8 
+// Tcl Message: [Thu Mar 12 11:07:11 2026] Launched impl_1... Run output will be captured here: C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CALab8/CALab8.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ag (cs): Implementation Completed: addNotify
+// Elapsed time: 74 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ag)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ag)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// TclEventType: RUN_LAUNCH
+dismissDialog("Launch Runs"); // f (cs)
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Thu Mar 12 11:08:29 2026] Launched impl_1... Run output will be captured here: C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CALab8/CALab8.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// ag (cs): Bitstream Generation Failed: addNotify
+// Elapsed time: 39 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ag)
+// Run Command: PAResourceCommand.PACommandNames_LOG_WINDOW
+dismissDialog("Bitstream Generation Failed"); // ag (cs)
+// Elapsed time: 154 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 7, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 7, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 8, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 8, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // E (g, cs)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceAtoD.ConstraintsChooserPanel_CREATE_FILE, "Create File"); // a (E, c)
+// Tcl Command: 'file mkdir C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CALab8/CALab8.srcs/constrs_1'
+// C (cs): Create Constraints File: addNotify
+// Tcl Message: file mkdir C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CALab8/CALab8.srcs/constrs_1 
+setText(PAResourceAtoD.CreateConstraintsFilePanel_FILE_NAME, "decoder"); // ac (D, C)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (C)
+dismissDialog("Create Constraints File"); // C (cs)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 13 seconds
+// Tcl Command: 'file mkdir C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CALab8/CALab8.srcs/constrs_1/new'
+dismissDialog("Add Sources"); // c (cs)
+// Tcl Message: file mkdir C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CALab8/CALab8.srcs/constrs_1/new 
+// Tcl Message: close [ open C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CALab8/CALab8.srcs/constrs_1/new/decoder.xdc w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset constrs_1 C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CALab8/CALab8.srcs/constrs_1/new/decoder.xdc 
+// Elapsed time: 10 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 8); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, decoder.xdc]", 9, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, decoder.xdc]", 9, false, false, false, false, false, true); // B (F, cs) - Double Click
+typeControlKey((HResource) null, "decoder.xdc", 'v'); // bP (w, cs)
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_MODIFY
+// f (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bz (cs):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cs)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: [Thu Mar 12 11:12:32 2026] Launched synth_1... Run output will be captured here: C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CALab8/CALab8.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ag (cs): Synthesis Completed: addNotify
+// Elapsed time: 65 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ag)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bz (cs):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cs)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 8 
+// Tcl Message: [Thu Mar 12 11:13:41 2026] Launched impl_1... Run output will be captured here: C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CALab8/CALab8.runs/impl_1/runme.log 
+// 'c' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ag (cs): Implementation Completed: addNotify
+// Elapsed time: 72 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ag)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ag)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// TclEventType: RUN_LAUNCH
+dismissDialog("Launch Runs"); // f (cs)
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Thu Mar 12 11:14:58 2026] Launched impl_1... Run output will be captured here: C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CALab8/CALab8.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ag (cs): Bitstream Generation Completed: addNotify
+// Elapsed time: 60 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a (Q, ag)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ag)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bz (cs):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// [GUI Memory]: 156 MB (+458kb) [01:34:25]
+// WARNING: HEventQueue.dispatchEvent() is taking  1401 ms.
+// Tcl Message: open_hw_manager 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+dismissDialog("Open Hardware Manager"); // bz (cs)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (ds, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ai (ao, cs)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// bz (cs):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server -allow_non_jtag 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2020.1   **** Build date : May 27 2020 at 20:24:38     ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.   INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042 
+// Tcl Message: INFO: [Labtools 27-3417] Launching cs_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:   ****** Xilinx cs_server v2020.1.0   **** Build date : May 14 2020-06:10:29     ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.    
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1089.863 ; gain = 4.996 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  4457 ms.
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AF3031A 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,140 MB. GUI used memory: 97 MB. Current time: 3/12/26, 11:16:21 AM PKT
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CALab8/CALab8.runs/impl_1/addressDecoderTop.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// [Engine Memory]: 2,140 MB (+1121055kb) [01:34:45]
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// Elapsed time: 14 seconds
+dismissDialog("Auto Connect"); // bz (cs)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cs)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/GitProjects/Lab02---Git---Krish-Kumar-Samia-Sarfaraz/CALab8/CALab8.runs/impl_1/addressDecoderTop.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz (cs)
