@@ -1,1 +1,8 @@
-auipc x1,1
+.text
+.globl _start
+
+_start:
+    auipc x1, 0x1
+    addi  x5, x0, 512
+    sw    x0, 0(x3)
+    j     .
