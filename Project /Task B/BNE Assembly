@@ -1,0 +1,23 @@
+.text
+.globl _start
+
+_start:
+    addi x1, x0, 5
+    addi x2, x0, 10
+
+    bne  x1, x2, not_equal
+
+equal:
+    lui  x3, 0x00001
+    addi x3, x3, -1107
+    j    store_result
+
+not_equal:
+    lui  x3, 0x0000c
+    addi x3, x3, -273
+
+store_result:
+    addi x5, x0, 512
+    sw   x3, 0(x5)
+
+    j    .
