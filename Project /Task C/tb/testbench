@@ -1,0 +1,130 @@
+`timescale 1ns / 1ps
+
+module TopProcessor_tb;
+
+    reg        clk;
+    reg        reset;
+    reg        btn_reset;
+    reg [15:0] switch_in;
+
+    wire [15:0] led_out;
+    wire [6:0]  seg;
+    wire [3:0]  an;
+    wire        dp;
+
+    TopProcessor dut (
+        .clk       (clk),
+        .reset     (reset),
+        .btn_reset (btn_reset),
+        .switch_in (switch_in),
+        .led_out   (led_out),
+        .seg       (seg),
+        .an        (an),
+        .dp        (dp)
+    );
+
+    always #5 clk = ~clk;
+
+    // For simulation only: bypass slow clock divider
+    initial begin
+        #1;
+        force dut.cpu_clk = clk;
+    end
+
+    initial begin
+        clk = 0;
+        reset = 0;
+        btn_reset = 0;
+        switch_in = 16'b0;
+
+        // =====================================================
+        // TEST CASE 1: n = 3
+        // Expected:
+        // 1 + 2 + 3 = 6
+        // LED final = 0006
+        // =====================================================
+        switch_in = 16'b0000_0000_0000_0011; // n = 3
+
+        reset = 1;
+        #100;
+        reset = 0;
+
+        #5000;
+
+        switch_in = 16'b0000_0000_0000_0000;
+        #1000;
+
+        // =====================================================
+        // TEST CASE 2: n = 4
+        // Expected:
+        // 1 + 2 + 3 + 4 = 10
+        // LED final = 000A
+        // =====================================================
+        switch_in = 16'b0000_0000_0000_0100; // n = 4
+
+        #6000;
+
+        switch_in = 16'b0000_0000_0000_0000;
+        #1000;
+
+        // =====================================================
+        // TEST CASE 3: n = 5
+        // Expected:
+        // 1 + 2 + 3 + 4 + 5 = 15
+        // LED final = 000F
+        // =====================================================
+        switch_in = 16'b0000_0000_0000_0101; // n = 5
+
+        #7000;
+
+        switch_in = 16'b0000_0000_0000_0000;
+        #1000;
+
+        // =====================================================
+        // TEST CASE 4: n = 6
+        // Expected:
+        // 1 + 2 + 3 + 4 + 5 + 6 = 21
+        // LED final = 0015
+        // =====================================================
+        switch_in = 16'b0000_0000_0000_0110; // n = 6
+
+        #8000;
+
+        switch_in = 16'b0000_0000_0000_0000;
+        #1000;
+
+        // =====================================================
+        // TEST CASE 5: soft reset button
+        // Start n = 7, then press soft reset
+        // Expected: LEDs clear
+        // =====================================================
+        switch_in = 16'b0000_0000_0000_0111; // n = 7
+
+        #2000;
+
+        btn_reset = 1;
+        #500;
+        btn_reset = 0;
+
+        #2000;
+
+        switch_in = 16'b0000_0000_0000_0000;
+        #1000;
+
+        $finish;
+    end
+
+    // Print whenever LED output changes
+    always @(led_out) begin
+        $display("time=%0t led_out=%0d hex=%h", $time, led_out, led_out);
+    end
+
+    // Print when processor writes to LED/output register at 0x200
+    always @(posedge dut.cpu_clk) begin
+        if (dut.led_wr) begin
+            $display("LED WRITE: time=%0t address=%h data=%h led_out=%h",
+                     $time, dut.alu_result, dut.ReadData2, led_out);
+        end
+    end
+
+endmodule
